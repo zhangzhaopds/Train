@@ -7,8 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070BF8216408FAAF438F44D5 /* Pods_Train.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95F448C587C91547EC31AAA3 /* Pods_Train.framework */; };
+		E2069BC91E287EB3007FEFD5 /* TicketQueryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2069BC71E287EB3007FEFD5 /* TicketQueryViewController.swift */; };
+		E2069BCA1E287EB3007FEFD5 /* TicketQueryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2069BC81E287EB3007FEFD5 /* TicketQueryViewController.xib */; };
+		E2069BCC1E28A15C007FEFD5 /* TicketListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2069BCB1E28A15C007FEFD5 /* TicketListHeaderView.swift */; };
+		E2069BCF1E28A884007FEFD5 /* TicketHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2069BCD1E28A884007FEFD5 /* TicketHeaderCell.swift */; };
+		E2069BD01E28A884007FEFD5 /* TicketHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2069BCE1E28A884007FEFD5 /* TicketHeaderCell.xib */; };
+		E240C0EE1E2372810015CFC2 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E240C0ED1E2372810015CFC2 /* SVProgressHUD.framework */; };
+		E240C0EF1E2372950015CFC2 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E240C0ED1E2372810015CFC2 /* SVProgressHUD.framework */; };
+		E240C0F01E2372950015CFC2 /* SVProgressHUD.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E240C0ED1E2372810015CFC2 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E25D3AA71E25C2E50025F616 /* StationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D3AA61E25C2E50025F616 /* StationData.swift */; };
+		E25D3AA91E25C5BA0025F616 /* station_name.js in Resources */ = {isa = PBXBuildFile; fileRef = E25D3AA81E25C5BA0025F616 /* station_name.js */; };
+		E25D3AAC1E25D1FB0025F616 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D3AAA1E25D1FB0025F616 /* StationsViewController.swift */; };
+		E25D3AAD1E25D1FB0025F616 /* StationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25D3AAB1E25D1FB0025F616 /* StationsViewController.xib */; };
+		E25D3AB21E25FA770025F616 /* StationSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D3AB01E25FA770025F616 /* StationSearchViewController.swift */; };
+		E25D3AB31E25FA770025F616 /* StationSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25D3AB11E25FA770025F616 /* StationSearchViewController.xib */; };
+		E2627A901E271BCE009F0082 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2627A8E1E271BCE009F0082 /* DateViewController.swift */; };
+		E2627A911E271BCE009F0082 /* DateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2627A8F1E271BCE009F0082 /* DateViewController.xib */; };
+		E2627A941E271EC7009F0082 /* DateListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2627A921E271EC7009F0082 /* DateListCell.swift */; };
+		E2627A951E271EC7009F0082 /* DateListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2627A931E271EC7009F0082 /* DateListCell.xib */; };
+		E2627A981E27205B009F0082 /* StudentTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2627A961E27205B009F0082 /* StudentTimeCell.swift */; };
+		E2627A991E27205B009F0082 /* StudentTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2627A971E27205B009F0082 /* StudentTimeCell.xib */; };
+		E27F4EDC1E24832400584F0C /* StartEndStationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F4EDA1E24832400584F0C /* StartEndStationCell.swift */; };
+		E27F4EDD1E24832400584F0C /* StartEndStationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F4EDB1E24832400584F0C /* StartEndStationCell.xib */; };
+		E27F4EE01E24A72F00584F0C /* StartEndTimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F4EDE1E24A72F00584F0C /* StartEndTimeCell.swift */; };
+		E27F4EE11E24A72F00584F0C /* StartEndTimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F4EDF1E24A72F00584F0C /* StartEndTimeCell.xib */; };
+		E27F4EE41E24B29700584F0C /* TrainTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F4EE21E24B29700584F0C /* TrainTypeCell.swift */; };
+		E27F4EE51E24B29700584F0C /* TrainTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F4EE31E24B29700584F0C /* TrainTypeCell.xib */; };
+		E27F4EE81E24C0DC00584F0C /* AddPassengerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F4EE61E24C0DC00584F0C /* AddPassengerCell.swift */; };
+		E27F4EE91E24C0DC00584F0C /* AddPassengerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F4EE71E24C0DC00584F0C /* AddPassengerCell.xib */; };
+		E27F4EEC1E24D28A00584F0C /* RecentPathCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27F4EEA1E24D28A00584F0C /* RecentPathCell.swift */; };
+		E27F4EED1E24D28A00584F0C /* RecentPathCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27F4EEB1E24D28A00584F0C /* RecentPathCell.xib */; };
+		E2882FE41E1E421800561FCA /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2882FE31E1E421800561FCA /* Service.swift */; };
+		E2AE88E61E1E3DE20052129D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AE88E51E1E3DE20052129D /* Alamofire.framework */; };
+		E2AE88E81E1E3DE80052129D /* XCGLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AE88E71E1E3DE80052129D /* XCGLogger.framework */; };
+		E2AE88E91E1E3EA40052129D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AE88E51E1E3DE20052129D /* Alamofire.framework */; };
+		E2AE88EA1E1E3EA40052129D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E2AE88E51E1E3DE20052129D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2BF65A81E1F2B0600FF21E3 /* Service+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65A71E1F2B0600FF21E3 /* Service+Login.swift */; };
+		E2BF65AA1E1F34DC00FF21E3 /* srca.cer in Resources */ = {isa = PBXBuildFile; fileRef = E2BF65A91E1F34DC00FF21E3 /* srca.cer */; };
+		E2BF65AD1E1F377800FF21E3 /* SwiftyRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65AC1E1F377800FF21E3 /* SwiftyRegex.swift */; };
+		E2BF65B31E1F3E4B00FF21E3 /* Service+Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65AE1E1F3E4B00FF21E3 /* Service+Order.swift */; };
+		E2BF65B41E1F3E4B00FF21E3 /* Service+QueryOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65AF1E1F3E4B00FF21E3 /* Service+QueryOrder.swift */; };
+		E2BF65B51E1F3E4B00FF21E3 /* Service+QueryTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65B01E1F3E4B00FF21E3 /* Service+QueryTicket.swift */; };
+		E2BF65B61E1F3E4B00FF21E3 /* Service+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65B11E1F3E4B00FF21E3 /* Service+Utilities.swift */; };
+		E2BF65B71E1F3E4B00FF21E3 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65B21E1F3E4B00FF21E3 /* ServiceError.swift */; };
+		E2BF65BD1E1F3E8000FF21E3 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65BC1E1F3E8000FF21E3 /* SwiftyJSON.swift */; };
+		E2BF65C31E1F3ED700FF21E3 /* QueryDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65C01E1F3ED700FF21E3 /* QueryDefaultManager.swift */; };
+		E2BF65D81E1F3F3800FF21E3 /* AutoSubmitParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65C51E1F3F3800FF21E3 /* AutoSubmitParams.swift */; };
+		E2BF65D91E1F3F3800FF21E3 /* ConfirmSingleForQueueAsysParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65C61E1F3F3800FF21E3 /* ConfirmSingleForQueueAsysParam.swift */; };
+		E2BF65DA1E1F3F3800FF21E3 /* ConfirmSingleForQueueParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65C71E1F3F3800FF21E3 /* ConfirmSingleForQueueParam.swift */; };
+		E2BF65DB1E1F3F3800FF21E3 /* GetQueueCountAsysParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65C81E1F3F3800FF21E3 /* GetQueueCountAsysParam.swift */; };
+		E2BF65DC1E1F3F3800FF21E3 /* GetQueueCountParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65C91E1F3F3800FF21E3 /* GetQueueCountParam.swift */; };
+		E2BF65DD1E1F3F3800FF21E3 /* LeftTicketParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65CA1E1F3F3800FF21E3 /* LeftTicketParam.swift */; };
+		E2BF65DE1E1F3F3800FF21E3 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65CB1E1F3F3800FF21E3 /* MainModel.swift */; };
+		E2BF65DF1E1F3F3800FF21E3 /* OrderDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65CC1E1F3F3800FF21E3 /* OrderDTO.swift */; };
+		E2BF65E01E1F3F3800FF21E3 /* PassengerDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65CD1E1F3F3800FF21E3 /* PassengerDTO.swift */; };
+		E2BF65E11E1F3F3800FF21E3 /* PaycheckNewParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65CE1E1F3F3800FF21E3 /* PaycheckNewParam.swift */; };
+		E2BF65E21E1F3F3800FF21E3 /* QueryByTrainCodeParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65CF1E1F3F3800FF21E3 /* QueryByTrainCodeParam.swift */; };
+		E2BF65E31E1F3F3800FF21E3 /* QueryLeftNewDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D01E1F3F3800FF21E3 /* QueryLeftNewDTO.swift */; };
+		E2BF65E41E1F3F3800FF21E3 /* QueryOrderParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D11E1F3F3800FF21E3 /* QueryOrderParam.swift */; };
+		E2BF65E51E1F3F3800FF21E3 /* QueryOrderWaitTimeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D21E1F3F3800FF21E3 /* QueryOrderWaitTimeResult.swift */; };
+		E2BF65E61E1F3F3800FF21E3 /* QueryTrainPriceParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D31E1F3F3800FF21E3 /* QueryTrainPriceParam.swift */; };
+		E2BF65E71E1F3F3800FF21E3 /* SubmitOrderParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D41E1F3F3800FF21E3 /* SubmitOrderParams.swift */; };
+		E2BF65E81E1F3F3800FF21E3 /* TicketConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D51E1F3F3800FF21E3 /* TicketConstants.swift */; };
+		E2BF65E91E1F3F3800FF21E3 /* TicketQueueCountResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D61E1F3F3800FF21E3 /* TicketQueueCountResult.swift */; };
+		E2BF65EA1E1F3F3800FF21E3 /* TrainCodeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65D71E1F3F3800FF21E3 /* TrainCodeDetail.swift */; };
+		E2BF65F01E1F62E400FF21E3 /* RandCodeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65EE1E1F62E400FF21E3 /* RandCodeImageView.swift */; };
+		E2BF65F91E1F8F4200FF21E3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65F81E1F8F4200FF21E3 /* LoginViewController.swift */; };
+		E2BF65FB1E1F93C200FF21E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF65FA1E1F93C200FF21E3 /* HomeViewController.swift */; };
 		E2E25AD01E1E20E500589796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E25ACF1E1E20E500589796 /* AppDelegate.swift */; };
-		E2E25AD21E1E20E500589796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E25AD11E1E20E500589796 /* ViewController.swift */; };
 		E2E25AD51E1E20E500589796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E25AD31E1E20E500589796 /* Main.storyboard */; };
 		E2E25AD71E1E20E500589796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E25AD61E1E20E500589796 /* Assets.xcassets */; };
 		E2E25ADA1E1E20E500589796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E25AD81E1E20E500589796 /* LaunchScreen.storyboard */; };
@@ -33,10 +100,92 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E2AE88EB1E1E3EA40052129D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E240C0F01E2372950015CFC2 /* SVProgressHUD.framework in Embed Frameworks */,
+				E2AE88EA1E1E3EA40052129D /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1355E356B00FCB1DC53F0E2C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		313DCA091EEFCE031B24D45A /* Pods-Train.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Train.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Train/Pods-Train.debug.xcconfig"; sourceTree = "<group>"; };
+		7A810129FB2326E58C7D7BDE /* Pods-Train.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Train.release.xcconfig"; path = "Pods/Target Support Files/Pods-Train/Pods-Train.release.xcconfig"; sourceTree = "<group>"; };
+		95F448C587C91547EC31AAA3 /* Pods_Train.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Train.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2069BC71E287EB3007FEFD5 /* TicketQueryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketQueryViewController.swift; sourceTree = "<group>"; };
+		E2069BC81E287EB3007FEFD5 /* TicketQueryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketQueryViewController.xib; sourceTree = "<group>"; };
+		E2069BCB1E28A15C007FEFD5 /* TicketListHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketListHeaderView.swift; sourceTree = "<group>"; };
+		E2069BCD1E28A884007FEFD5 /* TicketHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketHeaderCell.swift; sourceTree = "<group>"; };
+		E2069BCE1E28A884007FEFD5 /* TicketHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketHeaderCell.xib; sourceTree = "<group>"; };
+		E240C0ED1E2372810015CFC2 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "../../Library/Developer/Xcode/DerivedData/Train-hggwvnbjohcasmdxfqwbbdjdoceg/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		E25D3AA61E25C2E50025F616 /* StationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationData.swift; sourceTree = "<group>"; };
+		E25D3AA81E25C5BA0025F616 /* station_name.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = station_name.js; sourceTree = "<group>"; };
+		E25D3AAA1E25D1FB0025F616 /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		E25D3AAB1E25D1FB0025F616 /* StationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationsViewController.xib; sourceTree = "<group>"; };
+		E25D3AB01E25FA770025F616 /* StationSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationSearchViewController.swift; sourceTree = "<group>"; };
+		E25D3AB11E25FA770025F616 /* StationSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StationSearchViewController.xib; sourceTree = "<group>"; };
+		E2627A8E1E271BCE009F0082 /* DateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
+		E2627A8F1E271BCE009F0082 /* DateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateViewController.xib; sourceTree = "<group>"; };
+		E2627A921E271EC7009F0082 /* DateListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateListCell.swift; sourceTree = "<group>"; };
+		E2627A931E271EC7009F0082 /* DateListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateListCell.xib; sourceTree = "<group>"; };
+		E2627A961E27205B009F0082 /* StudentTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentTimeCell.swift; sourceTree = "<group>"; };
+		E2627A971E27205B009F0082 /* StudentTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentTimeCell.xib; sourceTree = "<group>"; };
+		E27F4EDA1E24832400584F0C /* StartEndStationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartEndStationCell.swift; sourceTree = "<group>"; };
+		E27F4EDB1E24832400584F0C /* StartEndStationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartEndStationCell.xib; sourceTree = "<group>"; };
+		E27F4EDE1E24A72F00584F0C /* StartEndTimeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartEndTimeCell.swift; sourceTree = "<group>"; };
+		E27F4EDF1E24A72F00584F0C /* StartEndTimeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartEndTimeCell.xib; sourceTree = "<group>"; };
+		E27F4EE21E24B29700584F0C /* TrainTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainTypeCell.swift; sourceTree = "<group>"; };
+		E27F4EE31E24B29700584F0C /* TrainTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainTypeCell.xib; sourceTree = "<group>"; };
+		E27F4EE61E24C0DC00584F0C /* AddPassengerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPassengerCell.swift; sourceTree = "<group>"; };
+		E27F4EE71E24C0DC00584F0C /* AddPassengerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddPassengerCell.xib; sourceTree = "<group>"; };
+		E27F4EEA1E24D28A00584F0C /* RecentPathCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentPathCell.swift; sourceTree = "<group>"; };
+		E27F4EEB1E24D28A00584F0C /* RecentPathCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecentPathCell.xib; sourceTree = "<group>"; };
+		E2882FE31E1E421800561FCA /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		E2AE88E51E1E3DE20052129D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/Train-hggwvnbjohcasmdxfqwbbdjdoceg/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		E2AE88E71E1E3DE80052129D /* XCGLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCGLogger.framework; path = "../../Library/Developer/Xcode/DerivedData/Train-hggwvnbjohcasmdxfqwbbdjdoceg/Build/Products/Debug-iphonesimulator/XCGLogger/XCGLogger.framework"; sourceTree = "<group>"; };
+		E2BF65A71E1F2B0600FF21E3 /* Service+Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+Login.swift"; sourceTree = "<group>"; };
+		E2BF65A91E1F34DC00FF21E3 /* srca.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = srca.cer; sourceTree = "<group>"; };
+		E2BF65AC1E1F377800FF21E3 /* SwiftyRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRegex.swift; sourceTree = "<group>"; };
+		E2BF65AE1E1F3E4B00FF21E3 /* Service+Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+Order.swift"; sourceTree = "<group>"; };
+		E2BF65AF1E1F3E4B00FF21E3 /* Service+QueryOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+QueryOrder.swift"; sourceTree = "<group>"; };
+		E2BF65B01E1F3E4B00FF21E3 /* Service+QueryTicket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+QueryTicket.swift"; sourceTree = "<group>"; };
+		E2BF65B11E1F3E4B00FF21E3 /* Service+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Service+Utilities.swift"; sourceTree = "<group>"; };
+		E2BF65B21E1F3E4B00FF21E3 /* ServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		E2BF65BC1E1F3E8000FF21E3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		E2BF65C01E1F3ED700FF21E3 /* QueryDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryDefaultManager.swift; sourceTree = "<group>"; };
+		E2BF65C51E1F3F3800FF21E3 /* AutoSubmitParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoSubmitParams.swift; sourceTree = "<group>"; };
+		E2BF65C61E1F3F3800FF21E3 /* ConfirmSingleForQueueAsysParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSingleForQueueAsysParam.swift; sourceTree = "<group>"; };
+		E2BF65C71E1F3F3800FF21E3 /* ConfirmSingleForQueueParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSingleForQueueParam.swift; sourceTree = "<group>"; };
+		E2BF65C81E1F3F3800FF21E3 /* GetQueueCountAsysParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetQueueCountAsysParam.swift; sourceTree = "<group>"; };
+		E2BF65C91E1F3F3800FF21E3 /* GetQueueCountParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetQueueCountParam.swift; sourceTree = "<group>"; };
+		E2BF65CA1E1F3F3800FF21E3 /* LeftTicketParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftTicketParam.swift; sourceTree = "<group>"; };
+		E2BF65CB1E1F3F3800FF21E3 /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		E2BF65CC1E1F3F3800FF21E3 /* OrderDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDTO.swift; sourceTree = "<group>"; };
+		E2BF65CD1E1F3F3800FF21E3 /* PassengerDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassengerDTO.swift; sourceTree = "<group>"; };
+		E2BF65CE1E1F3F3800FF21E3 /* PaycheckNewParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaycheckNewParam.swift; sourceTree = "<group>"; };
+		E2BF65CF1E1F3F3800FF21E3 /* QueryByTrainCodeParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryByTrainCodeParam.swift; sourceTree = "<group>"; };
+		E2BF65D01E1F3F3800FF21E3 /* QueryLeftNewDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryLeftNewDTO.swift; sourceTree = "<group>"; };
+		E2BF65D11E1F3F3800FF21E3 /* QueryOrderParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryOrderParam.swift; sourceTree = "<group>"; };
+		E2BF65D21E1F3F3800FF21E3 /* QueryOrderWaitTimeResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryOrderWaitTimeResult.swift; sourceTree = "<group>"; };
+		E2BF65D31E1F3F3800FF21E3 /* QueryTrainPriceParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryTrainPriceParam.swift; sourceTree = "<group>"; };
+		E2BF65D41E1F3F3800FF21E3 /* SubmitOrderParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitOrderParams.swift; sourceTree = "<group>"; };
+		E2BF65D51E1F3F3800FF21E3 /* TicketConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketConstants.swift; sourceTree = "<group>"; };
+		E2BF65D61E1F3F3800FF21E3 /* TicketQueueCountResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TicketQueueCountResult\U001b.swift"; sourceTree = "<group>"; };
+		E2BF65D71E1F3F3800FF21E3 /* TrainCodeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainCodeDetail.swift; sourceTree = "<group>"; };
+		E2BF65EB1E1F405900FF21E3 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E2BF65EE1E1F62E400FF21E3 /* RandCodeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandCodeImageView.swift; sourceTree = "<group>"; };
+		E2BF65F81E1F8F4200FF21E3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2BF65FA1E1F93C200FF21E3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E2E25ACC1E1E20E500589796 /* Train.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Train.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E25ACF1E1E20E500589796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2E25AD11E1E20E500589796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2E25AD41E1E20E500589796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2E25AD61E1E20E500589796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E25AD91E1E20E500589796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +203,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E240C0EF1E2372950015CFC2 /* SVProgressHUD.framework in Frameworks */,
+				E240C0EE1E2372810015CFC2 /* SVProgressHUD.framework in Frameworks */,
+				E2AE88E81E1E3DE80052129D /* XCGLogger.framework in Frameworks */,
+				E2AE88E61E1E3DE20052129D /* Alamofire.framework in Frameworks */,
+				070BF8216408FAAF438F44D5 /* Pods_Train.framework in Frameworks */,
+				E2AE88E91E1E3EA40052129D /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +229,160 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0775561E54DEE25F3F565D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				313DCA091EEFCE031B24D45A /* Pods-Train.debug.xcconfig */,
+				7A810129FB2326E58C7D7BDE /* Pods-Train.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAF8A032C0983D89FAAB3EAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E240C0ED1E2372810015CFC2 /* SVProgressHUD.framework */,
+				E2AE88E71E1E3DE80052129D /* XCGLogger.framework */,
+				E2AE88E51E1E3DE20052129D /* Alamofire.framework */,
+				1355E356B00FCB1DC53F0E2C /* Pods.framework */,
+				95F448C587C91547EC31AAA3 /* Pods_Train.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2069BC61E287E8C007FEFD5 /* TicketPage */ = {
+			isa = PBXGroup;
+			children = (
+				E2069BC71E287EB3007FEFD5 /* TicketQueryViewController.swift */,
+				E2069BC81E287EB3007FEFD5 /* TicketQueryViewController.xib */,
+				E2069BCD1E28A884007FEFD5 /* TicketHeaderCell.swift */,
+				E2069BCE1E28A884007FEFD5 /* TicketHeaderCell.xib */,
+				E2069BCB1E28A15C007FEFD5 /* TicketListHeaderView.swift */,
+			);
+			path = TicketPage;
+			sourceTree = "<group>";
+		};
+		E2627A8D1E271BB9009F0082 /* DatePage */ = {
+			isa = PBXGroup;
+			children = (
+				E2627A8E1E271BCE009F0082 /* DateViewController.swift */,
+				E2627A8F1E271BCE009F0082 /* DateViewController.xib */,
+				E2627A921E271EC7009F0082 /* DateListCell.swift */,
+				E2627A931E271EC7009F0082 /* DateListCell.xib */,
+				E2627A961E27205B009F0082 /* StudentTimeCell.swift */,
+				E2627A971E27205B009F0082 /* StudentTimeCell.xib */,
+			);
+			path = DatePage;
+			sourceTree = "<group>";
+		};
+		E27F4EEE1E24DB0A00584F0C /* StationsPage */ = {
+			isa = PBXGroup;
+			children = (
+				E25D3AAA1E25D1FB0025F616 /* StationsViewController.swift */,
+				E25D3AAB1E25D1FB0025F616 /* StationsViewController.xib */,
+				E25D3AB01E25FA770025F616 /* StationSearchViewController.swift */,
+				E25D3AB11E25FA770025F616 /* StationSearchViewController.xib */,
+			);
+			path = StationsPage;
+			sourceTree = "<group>";
+		};
+		E2882FD01E1E410A00561FCA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E2882FE31E1E421800561FCA /* Service.swift */,
+				E2BF65A71E1F2B0600FF21E3 /* Service+Login.swift */,
+				E2BF65AE1E1F3E4B00FF21E3 /* Service+Order.swift */,
+				E2BF65AF1E1F3E4B00FF21E3 /* Service+QueryOrder.swift */,
+				E2BF65B01E1F3E4B00FF21E3 /* Service+QueryTicket.swift */,
+				E2BF65B11E1F3E4B00FF21E3 /* Service+Utilities.swift */,
+				E2BF65B21E1F3E4B00FF21E3 /* ServiceError.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E2BF65AB1E1F375500FF21E3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF65BC1E1F3E8000FF21E3 /* SwiftyJSON.swift */,
+				E2BF65AC1E1F377800FF21E3 /* SwiftyRegex.swift */,
+				E2BF65C01E1F3ED700FF21E3 /* QueryDefaultManager.swift */,
+				E25D3AA61E25C2E50025F616 /* StationData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E2BF65C41E1F3F3800FF21E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF65C51E1F3F3800FF21E3 /* AutoSubmitParams.swift */,
+				E2BF65C61E1F3F3800FF21E3 /* ConfirmSingleForQueueAsysParam.swift */,
+				E2BF65C71E1F3F3800FF21E3 /* ConfirmSingleForQueueParam.swift */,
+				E2BF65C81E1F3F3800FF21E3 /* GetQueueCountAsysParam.swift */,
+				E2BF65C91E1F3F3800FF21E3 /* GetQueueCountParam.swift */,
+				E2BF65CA1E1F3F3800FF21E3 /* LeftTicketParam.swift */,
+				E2BF65CB1E1F3F3800FF21E3 /* MainModel.swift */,
+				E2BF65CC1E1F3F3800FF21E3 /* OrderDTO.swift */,
+				E2BF65CD1E1F3F3800FF21E3 /* PassengerDTO.swift */,
+				E2BF65CE1E1F3F3800FF21E3 /* PaycheckNewParam.swift */,
+				E2BF65CF1E1F3F3800FF21E3 /* QueryByTrainCodeParam.swift */,
+				E2BF65D01E1F3F3800FF21E3 /* QueryLeftNewDTO.swift */,
+				E2BF65D11E1F3F3800FF21E3 /* QueryOrderParam.swift */,
+				E2BF65D21E1F3F3800FF21E3 /* QueryOrderWaitTimeResult.swift */,
+				E2BF65D31E1F3F3800FF21E3 /* QueryTrainPriceParam.swift */,
+				E2BF65D41E1F3F3800FF21E3 /* SubmitOrderParams.swift */,
+				E2BF65D51E1F3F3800FF21E3 /* TicketConstants.swift */,
+				E2BF65D61E1F3F3800FF21E3 /* TicketQueueCountResult.swift */,
+				E2BF65D71E1F3F3800FF21E3 /* TrainCodeDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2BF65EC1E1F62E400FF21E3 /* UserControl */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF65EE1E1F62E400FF21E3 /* RandCodeImageView.swift */,
+			);
+			path = UserControl;
+			sourceTree = "<group>";
+		};
+		E2BF65F11E1F8B8800FF21E3 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E2069BC61E287E8C007FEFD5 /* TicketPage */,
+				E2627A8D1E271BB9009F0082 /* DatePage */,
+				E27F4EEE1E24DB0A00584F0C /* StationsPage */,
+				E2BF65F21E1F8B8800FF21E3 /* HomePage */,
+				E2BF65F31E1F8B8800FF21E3 /* LoginPage */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		E2BF65F21E1F8B8800FF21E3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF65FA1E1F93C200FF21E3 /* HomeViewController.swift */,
+				E27F4EDA1E24832400584F0C /* StartEndStationCell.swift */,
+				E27F4EDB1E24832400584F0C /* StartEndStationCell.xib */,
+				E27F4EDE1E24A72F00584F0C /* StartEndTimeCell.swift */,
+				E27F4EDF1E24A72F00584F0C /* StartEndTimeCell.xib */,
+				E27F4EE21E24B29700584F0C /* TrainTypeCell.swift */,
+				E27F4EE31E24B29700584F0C /* TrainTypeCell.xib */,
+				E27F4EE61E24C0DC00584F0C /* AddPassengerCell.swift */,
+				E27F4EE71E24C0DC00584F0C /* AddPassengerCell.xib */,
+				E27F4EEA1E24D28A00584F0C /* RecentPathCell.swift */,
+				E27F4EEB1E24D28A00584F0C /* RecentPathCell.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		E2BF65F31E1F8B8800FF21E3 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				E2BF65F81E1F8F4200FF21E3 /* LoginViewController.swift */,
+			);
+			path = LoginPage;
+			sourceTree = "<group>";
+		};
 		E2E25AC31E1E20E500589796 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +390,8 @@
 				E2E25AE31E1E20E500589796 /* TrainTests */,
 				E2E25AEE1E1E20E500589796 /* TrainUITests */,
 				E2E25ACD1E1E20E500589796 /* Products */,
+				CAF8A032C0983D89FAAB3EAB /* Frameworks */,
+				B0775561E54DEE25F3F565D7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,10 +409,17 @@
 			isa = PBXGroup;
 			children = (
 				E2E25ACF1E1E20E500589796 /* AppDelegate.swift */,
-				E2E25AD11E1E20E500589796 /* ViewController.swift */,
+				E2BF65F11E1F8B8800FF21E3 /* Pages */,
+				E2BF65EC1E1F62E400FF21E3 /* UserControl */,
+				E2BF65C41E1F3F3800FF21E3 /* Model */,
+				E2BF65AB1E1F375500FF21E3 /* Utilities */,
+				E2882FD01E1E410A00561FCA /* Service */,
 				E2E25AD31E1E20E500589796 /* Main.storyboard */,
 				E2E25AD61E1E20E500589796 /* Assets.xcassets */,
 				E2E25AD81E1E20E500589796 /* LaunchScreen.storyboard */,
+				E25D3AA81E25C5BA0025F616 /* station_name.js */,
+				E2BF65A91E1F34DC00FF21E3 /* srca.cer */,
+				E2BF65EB1E1F405900FF21E3 /* Header.h */,
 				E2E25ADB1E1E20E500589796 /* Info.plist */,
 			);
 			path = Train;
@@ -132,9 +450,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2E25AF41E1E20E500589796 /* Build configuration list for PBXNativeTarget "Train" */;
 			buildPhases = (
+				0787133484A561480192B97D /* [CP] Check Pods Manifest.lock */,
 				E2E25AC81E1E20E500589796 /* Sources */,
 				E2E25AC91E1E20E500589796 /* Frameworks */,
 				E2E25ACA1E1E20E500589796 /* Resources */,
+				F4452F6F9459A1866D190512 /* [CP] Embed Pods Frameworks */,
+				7F118E6F118BF8CD8163166C /* [CP] Copy Pods Resources */,
+				E2AE88EB1E1E3EA40052129D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,18 +515,21 @@
 				TargetAttributes = {
 					E2E25ACB1E1E20E500589796 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = S8KC3FX9WD;
+						DevelopmentTeam = 2QS92M67P4;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E2E25ADF1E1E20E500589796 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = S8KC3FX9WD;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E2E25ACB1E1E20E500589796;
 					};
 					E2E25AEA1E1E20E500589796 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = S8KC3FX9WD;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E2E25ACB1E1E20E500589796;
 					};
@@ -235,9 +560,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27F4EE51E24B29700584F0C /* TrainTypeCell.xib in Resources */,
+				E27F4EED1E24D28A00584F0C /* RecentPathCell.xib in Resources */,
+				E2069BD01E28A884007FEFD5 /* TicketHeaderCell.xib in Resources */,
 				E2E25ADA1E1E20E500589796 /* LaunchScreen.storyboard in Resources */,
+				E25D3AA91E25C5BA0025F616 /* station_name.js in Resources */,
+				E27F4EE11E24A72F00584F0C /* StartEndTimeCell.xib in Resources */,
+				E25D3AAD1E25D1FB0025F616 /* StationsViewController.xib in Resources */,
+				E2BF65AA1E1F34DC00FF21E3 /* srca.cer in Resources */,
+				E2069BCA1E287EB3007FEFD5 /* TicketQueryViewController.xib in Resources */,
+				E25D3AB31E25FA770025F616 /* StationSearchViewController.xib in Resources */,
+				E2627A991E27205B009F0082 /* StudentTimeCell.xib in Resources */,
 				E2E25AD71E1E20E500589796 /* Assets.xcassets in Resources */,
+				E27F4EDD1E24832400584F0C /* StartEndStationCell.xib in Resources */,
+				E27F4EE91E24C0DC00584F0C /* AddPassengerCell.xib in Resources */,
 				E2E25AD51E1E20E500589796 /* Main.storyboard in Resources */,
+				E2627A911E271BCE009F0082 /* DateViewController.xib in Resources */,
+				E2627A951E271EC7009F0082 /* DateListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +596,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0787133484A561480192B97D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F118E6F118BF8CD8163166C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Train/Pods-Train-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4452F6F9459A1866D190512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Train/Pods-Train-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2E25AC81E1E20E500589796 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E25AD21E1E20E500589796 /* ViewController.swift in Sources */,
+				E2BF65E61E1F3F3800FF21E3 /* QueryTrainPriceParam.swift in Sources */,
+				E27F4EE01E24A72F00584F0C /* StartEndTimeCell.swift in Sources */,
+				E2BF65B71E1F3E4B00FF21E3 /* ServiceError.swift in Sources */,
+				E25D3AAC1E25D1FB0025F616 /* StationsViewController.swift in Sources */,
+				E27F4EEC1E24D28A00584F0C /* RecentPathCell.swift in Sources */,
+				E27F4EE81E24C0DC00584F0C /* AddPassengerCell.swift in Sources */,
+				E2BF65B31E1F3E4B00FF21E3 /* Service+Order.swift in Sources */,
+				E2BF65FB1E1F93C200FF21E3 /* HomeViewController.swift in Sources */,
+				E2BF65E91E1F3F3800FF21E3 /* TicketQueueCountResult.swift in Sources */,
+				E2BF65E81E1F3F3800FF21E3 /* TicketConstants.swift in Sources */,
+				E2BF65E11E1F3F3800FF21E3 /* PaycheckNewParam.swift in Sources */,
+				E2BF65B51E1F3E4B00FF21E3 /* Service+QueryTicket.swift in Sources */,
+				E2BF65DA1E1F3F3800FF21E3 /* ConfirmSingleForQueueParam.swift in Sources */,
 				E2E25AD01E1E20E500589796 /* AppDelegate.swift in Sources */,
+				E2627A941E271EC7009F0082 /* DateListCell.swift in Sources */,
+				E2BF65E31E1F3F3800FF21E3 /* QueryLeftNewDTO.swift in Sources */,
+				E2BF65EA1E1F3F3800FF21E3 /* TrainCodeDetail.swift in Sources */,
+				E2627A901E271BCE009F0082 /* DateViewController.swift in Sources */,
+				E2882FE41E1E421800561FCA /* Service.swift in Sources */,
+				E2BF65B61E1F3E4B00FF21E3 /* Service+Utilities.swift in Sources */,
+				E2BF65C31E1F3ED700FF21E3 /* QueryDefaultManager.swift in Sources */,
+				E2BF65F01E1F62E400FF21E3 /* RandCodeImageView.swift in Sources */,
+				E2627A981E27205B009F0082 /* StudentTimeCell.swift in Sources */,
+				E2BF65DC1E1F3F3800FF21E3 /* GetQueueCountParam.swift in Sources */,
+				E2BF65AD1E1F377800FF21E3 /* SwiftyRegex.swift in Sources */,
+				E2069BCC1E28A15C007FEFD5 /* TicketListHeaderView.swift in Sources */,
+				E2069BCF1E28A884007FEFD5 /* TicketHeaderCell.swift in Sources */,
+				E2BF65E01E1F3F3800FF21E3 /* PassengerDTO.swift in Sources */,
+				E2BF65E71E1F3F3800FF21E3 /* SubmitOrderParams.swift in Sources */,
+				E2069BC91E287EB3007FEFD5 /* TicketQueryViewController.swift in Sources */,
+				E25D3AB21E25FA770025F616 /* StationSearchViewController.swift in Sources */,
+				E25D3AA71E25C2E50025F616 /* StationData.swift in Sources */,
+				E2BF65B41E1F3E4B00FF21E3 /* Service+QueryOrder.swift in Sources */,
+				E2BF65F91E1F8F4200FF21E3 /* LoginViewController.swift in Sources */,
+				E2BF65D81E1F3F3800FF21E3 /* AutoSubmitParams.swift in Sources */,
+				E27F4EDC1E24832400584F0C /* StartEndStationCell.swift in Sources */,
+				E2BF65E41E1F3F3800FF21E3 /* QueryOrderParam.swift in Sources */,
+				E27F4EE41E24B29700584F0C /* TrainTypeCell.swift in Sources */,
+				E2BF65D91E1F3F3800FF21E3 /* ConfirmSingleForQueueAsysParam.swift in Sources */,
+				E2BF65A81E1F2B0600FF21E3 /* Service+Login.swift in Sources */,
+				E2BF65DD1E1F3F3800FF21E3 /* LeftTicketParam.swift in Sources */,
+				E2BF65E21E1F3F3800FF21E3 /* QueryByTrainCodeParam.swift in Sources */,
+				E2BF65DE1E1F3F3800FF21E3 /* MainModel.swift in Sources */,
+				E2BF65BD1E1F3E8000FF21E3 /* SwiftyJSON.swift in Sources */,
+				E2BF65DB1E1F3F3800FF21E3 /* GetQueueCountAsysParam.swift in Sources */,
+				E2BF65DF1E1F3F3800FF21E3 /* OrderDTO.swift in Sources */,
+				E2BF65E51E1F3F3800FF21E3 /* QueryOrderWaitTimeResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,26 +845,35 @@
 		};
 		E2E25AF51E1E20E500589796 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 313DCA091EEFCE031B24D45A /* Pods-Train.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2QS92M67P4;
 				INFOPLIST_FILE = Train/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tongxingpay.Train;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Train/Header.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E2E25AF61E1E20E500589796 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A810129FB2326E58C7D7BDE /* Pods-Train.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = S8KC3FX9WD;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2QS92M67P4;
 				INFOPLIST_FILE = Train/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tongxingpay.Train;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Train/Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +955,7 @@
 				E2E25AF61E1E20E500589796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2E25AF71E1E20E500589796 /* Build configuration list for PBXNativeTarget "TrainTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +964,7 @@
 				E2E25AF91E1E20E500589796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2E25AFA1E1E20E500589796 /* Build configuration list for PBXNativeTarget "TrainUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +973,7 @@
 				E2E25AFC1E1E20E500589796 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

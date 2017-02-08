@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (4.2.0)
+  - PromiseKit (4.1.2):
+    - PromiseKit/Foundation (= 4.1.2)
+    - PromiseKit/QuartzCore (= 4.1.2)
+    - PromiseKit/UIKit (= 4.1.2)
+  - PromiseKit/CorePromise (4.1.2)
+  - PromiseKit/Foundation (4.1.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.2):
+    - PromiseKit/CorePromise
+  - SVProgressHUD (2.1.2)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `master`)
+  - PromiseKit (from `https://github.com/mxcl/PromiseKit.git`)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - XCGLogger (from `https://github.com/DaveWoodCom/XCGLogger.git`, branch `swift_3.0`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: master
+    :git: https://github.com/Alamofire/Alamofire.git
+  PromiseKit:
+    :git: https://github.com/mxcl/PromiseKit.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  XCGLogger:
+    :branch: swift_3.0
+    :git: https://github.com/DaveWoodCom/XCGLogger.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 779930c399307caa3d1afb01fd628754e323ea34
+    :git: https://github.com/Alamofire/Alamofire.git
+  PromiseKit:
+    :commit: f6989f44eafd7b4f0fdbc5cde12bf34c8ac595af
+    :git: https://github.com/mxcl/PromiseKit.git
+  SVProgressHUD:
+    :commit: cbf9eea80216823fd6df83370162d9857e59c1ca
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  XCGLogger:
+    :commit: 2fd27c92eb102bcf09f3176a230e42e38cacd4a2
+    :git: https://github.com/DaveWoodCom/XCGLogger.git
+
+SPEC CHECKSUMS:
+  Alamofire: 26d8877ec03b4e6e6cbfbf7c03924b4844a2d453
+  PromiseKit: 8c6299ae5be25ae1a7f6b3edc4e4759d625fdd18
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+
+PODFILE CHECKSUM: 0912f7f279f1aad36812267b2b26d0a58a279831
+
+COCOAPODS: 1.1.1

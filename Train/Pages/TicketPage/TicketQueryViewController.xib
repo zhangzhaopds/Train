@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TicketQueryViewController" customModule="Train" customModuleProvider="target">
+            <connections>
+                <outlet property="mTableView" destination="Gn4-co-a4n" id="44A-wz-NP6"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Gn4-co-a4n">
+                    <rect key="frame" x="0.0" y="138" width="375" height="529"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H4B-J1-TWm">
+                    <rect key="frame" x="0.0" y="64" width="375" height="50"/>
+                    <color key="backgroundColor" red="1" green="0.66020307460000005" blue="0.46903944809999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="TTt-BU-NqE"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Gn4-co-a4n" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="54b-p0-4um"/>
+                <constraint firstItem="H4B-J1-TWm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="5u8-L4-agX"/>
+                <constraint firstAttribute="trailing" secondItem="Gn4-co-a4n" secondAttribute="trailing" id="KEU-5k-avd"/>
+                <constraint firstAttribute="bottom" secondItem="Gn4-co-a4n" secondAttribute="bottom" id="P4R-Sg-HSg"/>
+                <constraint firstItem="Gn4-co-a4n" firstAttribute="top" secondItem="H4B-J1-TWm" secondAttribute="bottom" constant="-64" id="Zrm-lK-gQW"/>
+                <constraint firstAttribute="trailing" secondItem="H4B-J1-TWm" secondAttribute="trailing" id="eWw-Sl-3mj"/>
+                <constraint firstItem="H4B-J1-TWm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="nKr-iT-rWm"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="57.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="IjU-SV-jKs">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="507" y="91"/>
+        </view>
+    </objects>
+</document>
